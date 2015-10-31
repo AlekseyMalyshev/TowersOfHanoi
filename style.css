@@ -51,7 +51,7 @@ div.tower {
 div.column {
     background-color: transparent;
     display: inline-block;
-    width: 1%;
+    width: 0;
     height: 300px;
     padding: 0px;
     margin: 0px;
