@@ -1,0 +1,93 @@
+
+body {
+    text-align: center;
+}
+
+div {
+    border: 1px solid black;
+    //border: none;
+}
+
+div.towers {
+    width: 90%;
+    height: 600px;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.header {
+    width: 100%;
+    background-color: #eeeeee;
+    height: 50px;
+}
+
+input.height,
+input.start {
+    outline: none;
+    font-size: 20px;
+    height: 30px;
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.base {
+    background: -webkit-linear-gradient(bottom, #28327f, #5064ff);
+    background:    -moz-linear-gradient(bottom, #28327f, #5064ff);
+    background:      -o-linear-gradient(bottom, #28327f, #5064ff);
+    background:         linear-gradient(bottom, #28327f, #5064ff);
+    width: 100%;
+    border: none;
+    height: 30px;
+}
+
+div.tower {
+    background-color: #eeeeee;
+    display: inline-block;
+    width: 32%;
+    padding: 100px 0px 0px 0px;
+    margin: auto 0px 0px 0px;
+}
+
+div.axis {
+    background: -webkit-linear-gradient(right, #28327f, #5064ff);
+    background:    -moz-linear-gradient(right, #28327f, #5064ff);
+    background:      -o-linear-gradient(right, #28327f, #5064ff);
+    background:         linear-gradient(right, #28327f, #5064ff);
+    z-index: -100;
+    border: none;
+    width: 15px;
+    height: 250pt;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.ring {
+    background: -webkit-linear-gradient(right, #28327f, #5064ff);
+    background:    -moz-linear-gradient(right, #28327f, #5064ff);
+    background:      -o-linear-gradient(right, #28327f, #5064ff);
+    background:         linear-gradient(right, #28327f, #5064ff);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 18px;
+    border-radius: 9px;
+}
+
+div.ring.selected {
+    height: 16px;
+    border: 2px solid #ff0000;
+}
+
+div.ring.flash {
+    background: #ff0000;
+    background-color: #ff0000;
+}
+
+div.ring.green {
+    background: #00ff00;
+    background-color: #00ff00;
+}
